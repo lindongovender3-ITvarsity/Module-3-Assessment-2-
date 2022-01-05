@@ -1,0 +1,243 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family:sans-serif;
+
+    margin: 5px;
+    padding: 0;
+
+    height: 100%;
+    font-size: 25px;
+}
+.body-home{
+    background-image: url('images/background\ img.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-meals{
+    background-image: url('images/background\ for\ meals.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*==========HEADER==========*/
+.header{
+    background-color:black;
+    
+
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+.header img{
+    width: 50px;
+    padding-top: 5px;
+    padding-right: 50px;
+
+    
+}
+
+/*==========HOME PAGE==========*/
+
+#home-logo-img{
+    width: 40% length:200px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+    
+}
+
+}
+#home-logo-text{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 50px 
+    text-align: center; 
+}
+/*=====HOME PAGE MENU=====*/
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+/*==========MEALS PAGE==========*/
+
+#meals{
+    padding-top: 30px;
+}
+#meals h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*=====MEALS PAGE MENU=====*/
+
+.meals-list a{
+    text-decoration: none;
+}
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+
+}
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: #1a1a1a;
+    padding-left: 10px;
+    padding-top: 50px;
+    color:#ffffff;
+}
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+    color:lightslategrey;
+}
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+    color:lightslategrey;
+}
+/*==========RECIPE PAGE==========*/
+#recipe{
+    padding-top: 50px;
+    background-image: url('images/pic\ of\ starters\ 1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*=====RECIPE DETAILS=====*/
+.recipe-details img{
+    width: 100%;
+}
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+    color:slategray;
+}
+
+.recipe-details h2{
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color:white;
+    text-decoration: underline white;
+}
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: royalblue;
+}
+.recipe-details-info p{
+    font-size: 25px;
+    display: inline-block;
+    color:black;
+}
+.recipe-details-ingridents label{
+    line-height: 25px;
+    margin-left: 10px ;
+    color:black
+    font-size: 20px;
+}
+.recipe-details-steps{
+    padding-top: 20px;
+}
+.recipe-details-steps ol{
+    padding-left: 28px;
+    color: royalblue;
+    font-size: 20px;
+}
+/*==========MEALS PAGE==========*/
+.button{
+    display: block;
+    width:100%;
+    background-color:slategrey;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin:12px 0;
+    padding: 8px 0;
+}
+/*==========RESPONSIVE LAYOUT==========*/
+
+@media only screen and (min-width: 600px) {
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 720px) {
+    .body-home{
+        background-image: url('images/background\ img.jpeg');
+    }
+    .body-meals{
+        background-image: url('images/background\ for\ meals.jpg');
+    }
+}
